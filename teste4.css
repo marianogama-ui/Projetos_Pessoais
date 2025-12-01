@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alexandria:wght@100..900&family=Bebas+Neue&family=Bungee&family=Butcherman&family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Smooch+Sans:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #271003;
+    overflow-x: hidden;
+}
+
+
+
+header{
+    font-family: "Bungee", sans-serif;
+    background-image:url('../Images/728.jpg') ; 
+    background-size: cover;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.637);
+}
+
+header img{
+    height: 50px;
+}
+
+header h1{
+    color: rgb(233, 180, 81);
+    text-shadow: 1px 1px 10px rgb(233, 180, 81),
+                 1px 1px 10px rgb(90, 69, 31),
+                 1px 1px 10px rgb(32, 24, 9);
+}
+
+.header-container nav{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+.logo-box{
+    background: rgba(0, 0, 0, 0.575);
+    display: flex;
+    gap: 10px;
+    padding: 2rem;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    position: relative;
+    left: 68%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(233, 180, 81);
+    text-shadow: 1px 1px 10px rgb(233, 180, 81),
+                 1px 1px 10px rgb(90, 69, 31),
+                 1px 1px 10px rgb(32, 24, 9);
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+
+
+.home-content{
+    display: flex;
+}
+
+.home-image{
+    position: absolute;
+    left: 75.9%;
+    bottom: 1px;
+}
+
+.home-image img{
+    height: 650px;
+    border-radius: 50% 0% 0% 50%;
+}
+
+.welcome-box{
+    color: rgb(65, 50, 22);
+    font-size: 20px;
+    font-family: "Bungee", sans-serif;
+    position: relative;
+    width: fit-content;
+    left: 15%;
+    bottom: -180px;
+    background: whitesmoke;
+    padding: 3rem;
+    border-radius: 40px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+
+
+.menu-container{
+    color: white;
+    font-family: "Bungee", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+.menu-title{
+    padding: 10px;
+    background: #140802;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.37);
+}
+
+.menu-title h1{
+    animation: ida2 15s infinite ease-in-out;
+    color: rgb(233, 180, 81);
+    font-size: 40px;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.menu-items img{
+    height: 260px;
+    width: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.849);
+    transition: 0.3s;
+}
+
+.menu-items img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+figcaption{
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(65, 50, 22);
+    margin-top: 10px;    
+    z-index: 1;
+}
+
+
+.about-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    position: relative;
+}
+
+
+.about-content {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.about-image-box {
+    position: absolute;
+    right: -250px;
+    top: 120px;
+}
+
+#about-image {
+    width: 500px;
+    border-radius: 50% 10% 50% 10%;
+    border: 5px solid whitesmoke;
+    box-shadow: 1px 1px 20px rgba(255,255,255,0.3);
+    object-fit: cover;
+}
+
+
+.about-texto {
+    background: whitesmoke;
+    padding: 3rem;
+    border-radius: 40px;
+    color: rgb(65, 50, 22);
+    font-family: "Bungee", sans-serif;
+    font-size: 18px;
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.45);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    width: 700px;
+    line-height: 1.6;
+}
